@@ -1,3 +1,5 @@
+Take a look at Views/Home/Index.cshtml and make sure that it contains the following parts:
+
 @{
     ViewData["Title"] = "Home Page";
 }
@@ -17,3 +19,5 @@
    <script type="text/javascript" asp-src-include="~/dist/app.*.bundle.js" asp-append-version="true"></script>
  </environment>
 }
+
+That's it for Index.cshtml
